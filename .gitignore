@@ -1,0 +1,13 @@
+**/.vs
+**/packages
+
+# ignore bin directory
+**/bin/**
+
+# ignore obj directory
+**/obj/**
+
+*.dbmdl
+*.jfm
+**/*.csproj.user
+

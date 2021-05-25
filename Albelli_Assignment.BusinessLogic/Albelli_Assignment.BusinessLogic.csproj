@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Albelli_Assignment.BusinessLogic.Interfaces\Albelli_Assignment.BusinessLogic.Interfaces.csproj" />
+    <ProjectReference Include="..\Albelli_Assignment.DataAccess.Interfaces\Albelli_Assignment.DataAccess.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

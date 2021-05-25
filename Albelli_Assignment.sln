@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Albelli_Assignment", "Albelli_Assignment\Albelli_Assignment.csproj", "{8CA65BF9-9B40-4C02-BFCC-9B421FC94336}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Albelli_Assignment.BusinessLogic.Interfaces", "Albelli_Assignment.BusinessLogic.Interfaces\Albelli_Assignment.BusinessLogic.Interfaces.csproj", "{77F44C09-8F0D-48FA-944A-F2B0C28BC581}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Albelli_Assignment.DataAccess.Interfaces", "Albelli_Assignment.DataAccess.Interfaces\Albelli_Assignment.DataAccess.Interfaces.csproj", "{6F1948D8-F5A5-4AB0-885A-F7A4EBDC5DDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Albelli_Assignment.BusinessLogic", "Albelli_Assignment.BusinessLogic\Albelli_Assignment.BusinessLogic.csproj", "{90A8F393-11BA-445B-BC29-E01A7CF8B26A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Albelli_Assignment.DataAccess", "Albelli_Assignment.DataAccess\Albelli_Assignment.DataAccess.csproj", "{4FC5B8DF-3214-42D5-85F4-EF1AE8648157}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Albelli_Assignment.Entities", "Albelli_Assignment.Entities\Albelli_Assignment.Entities.csproj", "{3590AFD7-C95F-447A-AA2A-4A5989037B6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Albelli_Assignment.BusinessLogic.Models", "Albelli_Assignment.BusinessLogic.Models\Albelli_Assignment.BusinessLogic.Models.csproj", "{963D1108-E1DB-462A-91CA-974DD2B9E76E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{17E5079D-AC80-494D-AFF2-FDD1AED09201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Albelli_Assignment.Tests.BusinessLogic", "Tests\Albelli_Assignment.Tests.BusinessLogic\Albelli_Assignment.Tests.BusinessLogic.csproj", "{7BF6D864-340E-4AC9-B596-AC52E0EC8197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albelli_Assignment.DataAccessMocked", "Albelli_Assignment.DataAccessShortCircuited\Albelli_Assignment.DataAccessMocked.csproj", "{78734B9F-288F-475B-9A91-0D5C538B1B60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CA65BF9-9B40-4C02-BFCC-9B421FC94336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA65BF9-9B40-4C02-BFCC-9B421FC94336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA65BF9-9B40-4C02-BFCC-9B421FC94336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA65BF9-9B40-4C02-BFCC-9B421FC94336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F44C09-8F0D-48FA-944A-F2B0C28BC581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F44C09-8F0D-48FA-944A-F2B0C28BC581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F44C09-8F0D-48FA-944A-F2B0C28BC581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F44C09-8F0D-48FA-944A-F2B0C28BC581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1948D8-F5A5-4AB0-885A-F7A4EBDC5DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1948D8-F5A5-4AB0-885A-F7A4EBDC5DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1948D8-F5A5-4AB0-885A-F7A4EBDC5DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1948D8-F5A5-4AB0-885A-F7A4EBDC5DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A8F393-11BA-445B-BC29-E01A7CF8B26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A8F393-11BA-445B-BC29-E01A7CF8B26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A8F393-11BA-445B-BC29-E01A7CF8B26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A8F393-11BA-445B-BC29-E01A7CF8B26A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC5B8DF-3214-42D5-85F4-EF1AE8648157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC5B8DF-3214-42D5-85F4-EF1AE8648157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC5B8DF-3214-42D5-85F4-EF1AE8648157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC5B8DF-3214-42D5-85F4-EF1AE8648157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3590AFD7-C95F-447A-AA2A-4A5989037B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3590AFD7-C95F-447A-AA2A-4A5989037B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3590AFD7-C95F-447A-AA2A-4A5989037B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3590AFD7-C95F-447A-AA2A-4A5989037B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{963D1108-E1DB-462A-91CA-974DD2B9E76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963D1108-E1DB-462A-91CA-974DD2B9E76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963D1108-E1DB-462A-91CA-974DD2B9E76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963D1108-E1DB-462A-91CA-974DD2B9E76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF6D864-340E-4AC9-B596-AC52E0EC8197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF6D864-340E-4AC9-B596-AC52E0EC8197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF6D864-340E-4AC9-B596-AC52E0EC8197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF6D864-340E-4AC9-B596-AC52E0EC8197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78734B9F-288F-475B-9A91-0D5C538B1B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78734B9F-288F-475B-9A91-0D5C538B1B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78734B9F-288F-475B-9A91-0D5C538B1B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78734B9F-288F-475B-9A91-0D5C538B1B60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BF6D864-340E-4AC9-B596-AC52E0EC8197} = {17E5079D-AC80-494D-AFF2-FDD1AED09201}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6455ADB6-A69E-482A-9668-6D7551021E72}
+	EndGlobalSection
+EndGlobal
