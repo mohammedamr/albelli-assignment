@@ -2,7 +2,7 @@
 
 ## Architecture & Design
 
-The project uses .NET Core. It consists of:
+The project uses .NET Core and Sql Server. It consists of:
 * UI layer `Albelli_Assignment`
 * Business Logic layer `Albelli_Assignment.BusinessLogic`
 * Data Access layer `Albelli_Assignment.DataAccess`.
