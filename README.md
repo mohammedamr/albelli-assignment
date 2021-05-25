@@ -17,7 +17,25 @@ which contains input and output models for the Business Logic layer.
 
 Initially, the Data Access layer is short circuited, and the objects are saved in memory.
 To use the database, change the connection string in `appsettings.json`, use `Update-Database` command on `Albelli_Assignment.DataAccess`,
-then go to `Startup.cs` and switch the dependency from `DataAccessMocked` class to `DataAccess` class, then run.
+add some data to `ProductTypes` table in the database, then go to `Startup.cs` and switch the dependency from `DataAccessMocked` class
+to `DataAccess` class, then run.
+
+### Get Orders
+GET /orders
+
+### Add Order
+POST /orders
+Body:
+{
+    "customerName": "customer name",
+    "items": [{
+        "productTypeID": 1,
+        "quantity": 2
+    }]
+}
+
+### Get Single Order
+GET /orders/1
 
 ## Bin Minimum Width
 
